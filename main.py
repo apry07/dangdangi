@@ -5,7 +5,7 @@ import datetime
 from discord import message
 from discord.flags import MessageFlags
 import openpyxl
-
+import os
 
 
 
@@ -118,5 +118,5 @@ async def on_message(message):
 
     
 
-
-client.run("ODc3MzYyMjU0NjU0MzUzNDc4.YRxhRg.HnkZw-jsy_-pQB9o30XDu8MpkqY")
+access_token = os.environ["BOT_TOKEN"}
+client.run(access_token)
